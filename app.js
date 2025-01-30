@@ -1,7 +1,7 @@
 const apiKey = 'tEwrCx246VXwNKxohtba2oSPOlavCSVe1priEwKx';  // Replace with your actual API key
 
 // The endpoint for MLB players' stats might look like this
-const url = `https://api.sportradar.us/mlb/trial/v6.5/en/seasons/current/players.json?api_key=tEwrCx246VXwNKxohtba2oSPOlavCSVe1priEwKx`;
+const url = `https://api.sportradar.com/mlb/trail/v8/en/seasons/2024/REG/leaders/statistics.json`;
 
 async function getPlayersStats() {
   try {
